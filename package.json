@@ -1,0 +1,12 @@
+{
+  "name": "local-lambda",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@middy/core": "^1.0.0",
+    "throat": "^4.0.0"
+  },
+  "scripts": {
+    "sam": "sam.cmd local start-api -t template.yaml"
+  }
+}
